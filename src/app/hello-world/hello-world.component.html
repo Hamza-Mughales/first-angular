@@ -1,2 +1,15 @@
 <p>hello-world component works!</p>
 <h4>from Angular</h4>
+
+<!-- One way data binding -->
+<label for="name">Name</label>
+<input type="text" name="name" [disabled]="isDisabled" />
+
+<!-- Show company data  -->
+
+<h1>Company Data</h1>
+<h3>company name: {{ Company.name }}</h3>
+<h3>company address: {{ Company.address }}</h3>
+<h3>company url: {{ Company.url }}</h3>
+
+
