@@ -1,29 +1,29 @@
 <h1>Learning Angular</h1>
 
 <!-- One way data binding -->
-<label for="name">Name</label>
-<input type="text" name="name" [disabled]="isDisabled" />
+<!-- <label for="name">Name</label>
+<input type="text" name="name" [disabled]="isDisabled" /> -->
 
 <!-- Show company data  -->
-<h1>Company Data</h1>
+<!-- <h1>Company Data</h1>
 <h3>company name: {{ Company . name }}</h3>
 <h3>company address: {{ Company . address }}</h3>
-<h3>company url: {{ Company . url }}</h3>
+<h3>company url: {{ Company . url }}</h3> -->
 
 <!-- ngIf  -->
-<h1>List of fruits</h1>
+<!-- <h1>List of fruits</h1>
 <div *ngIf="listOfFruits.length > 0; then showFrouits; else noFruits"></div>
 
 <ng-template #showFrouits>There are some fruits</ng-template>
 
-<ng-template #noFruits> No fruits found {{ listOfFruits . length }}</ng-template>
+<ng-template #noFruits> No fruits found {{ listOfFruits . length }}</ng-template> -->
 
 <!-- Hide and show -->
-<div [hidden]="listOfFruits.length > 0"> This list is empty</div>
-<div [hidden]="listOfFruits.length == 0"> This list is <strong>NOT</strong> empty</div>
+<!-- <div [hidden]="listOfFruits.length > 0"> This list is empty</div>
+<div [hidden]="listOfFruits.length == 0"> This list is <strong>NOT</strong> empty</div> -->
 
 <!-- ngSwitch -->
-<h3>Click to select a course</h3>
+<!-- <h3>Click to select a course</h3>
 <ul>
     <li style="cursor: pointer;"><a (click)="viewMode = 'Vue'">Vue course</a></li>
     <li style="cursor: pointer;"><a (click)="viewMode = 'Angular'">Angular course</a></li>
@@ -33,7 +33,7 @@
     <div *ngSwitchCase="'Vue'">This is a Vue course</div>
     <div *ngSwitchCase="'Angular'">This is an Angular course</div>
     <div *ngSwitchDefault>This is a default course</div>
-</div>
+</div> -->
 
 <!-- ngFor -->
 <ul>
